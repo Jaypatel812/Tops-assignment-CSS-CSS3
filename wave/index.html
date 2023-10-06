@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+
+
+        .maindiv {
+            position: relative;
+            height: 100vh;
+            background-image: url(img.png);
+            background-size: cover;
+            width: 100%;
+        }
+
+
+
+        .team_section {
+            position: absolute;
+            color: white;
+            text-align: center;
+            padding-left: 450px;
+            padding-top: 50px;
+            align-items: center;
+        }
+
+        h1 {
+            line-height: 3;
+        }
+
+        .line {
+            position: absolute;
+            max-width: 400px;
+            margin-left: 10%;
+            text-align: center;
+        }
+
+        .line_line {
+            color: transparent;
+            border-bottom: 1px solid white;
+        }
+
+        .line_dot {
+            color: transparent;
+
+            border-bottom: 1px solid red;
+        }
+
+        .job_role {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        .person01>img {
+            border-radius: 50%;
+        }
+
+        .person02>img {
+            border-radius: 50%;
+            height: 50px;
+        }
+
+        .person03>img {
+            border-radius: 50%;
+        }
+
+        .person04>img {
+            border-radius: 50%;
+        }
+
+        .person05>img {
+            border-radius: 50%;
+        }
+
+
+        svg {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            stroke: red;
+            stroke-width: 2px;
+        }
+
+        .profile {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            top: 500px;
+            z-index: 2;
+            color: white;
+            left: 50px;
+        }
+
+        .job_role {
+            position: relative;
+        }
+        .person01{
+            left: 150px;
+            top: 470px;
+
+        }
+        .person02{
+            left: 420px;
+            top: 540px;
+
+        }
+        .person03{
+            left: 520px;
+            top: 470px;
+        }
+        .person04{
+            left: 710px;
+            top: 465px ;
+
+        }
+        .person05{
+            left: 880px;
+            top: 415px;
+        }
+        .dis_person{
+            opacity: 0;
+        }
+
+        .profile:hover > .dis_person  {
+            opacity: 1;
+            
+        }
+        .mem_role{
+            color: red;
+            text-align: center;
+            
+        }
+        .mem_dis{
+            font-size:medium;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="team_section">
+            <h1>OUR TEAM</h1>
+            <p>Meet the craziest team. Share your thoughts with them.</p>
+            <div class="line">
+                <span class="line_line">sbsfbfuibfiufbui</span>
+                <span class="line_dot">f</span>
+                <span class="line_line">sfnfanfafnafknaa</span>
+            </div>
+        </div>
+        <div class="svg_container">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="red" fill-opacity="0.1"
+                    d="M0,320L30,298.7C60,277,120,235,180,186.7C240,139,300,85,360,96C420,107,480,181,540,186.7C600,192,660,128,720,106.7C780,85,840,107,900,96C960,85,1020,43,1080,37.3C1140,32,1200,64,1260,96C1320,128,1380,160,1410,176L1440,192L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+                </path>
+            </svg>
+            <div class="job_role">
+                <div class="profile person01">
+                    <img src="me1.png">
+                    <div class="dis_person">
+                        <h2 class="mem_role">FRONT-END DEVELOPER</h2>
+                        <p class="mem_dis">REACT JS DEVELOPER</p>
+                    </div>
+                </div>
+                <div class="profile person02">
+                    <img src="me2.png">
+                    <div class="dis_person">
+                        <h2 class="mem_role">TESTER</h2>
+                        <p class="mem_dis">WEBSITE TESTING</p>
+                    </div>
+                </div>
+                <div class="profile person03">
+                    <img src="me3.png">
+                    <div class="dis_person">
+                        <h2 class="mem_role">BACK-END DEVELOPER</h2>
+                        <p class="mem_dis">JAVA DEVELOPER</p>
+                    </div>
+                </div>
+                <div class="profile person04">
+                    <img src="me4.png">
+                    <div class="dis_person">
+                        <h2 class="mem_role">WEB-DESIGNER</h2>
+                        <p class="mem_dis">UI/UX DESIGNING</p>
+                    </div>
+                </div>
+                <div class="profile person05">
+                    <img src="me5.png">
+                    <div class="dis_person">
+                        <h2 class="mem_role">APP DEVELOPER</h2>
+                        <p class="mem_dis">IOS DEVELOPER</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+
+</html>
