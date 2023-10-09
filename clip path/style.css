@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+img{
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 50% 100%, 0 80%);
+}
+.maindiv{
+    height: 800px;
+}
+
+.bgi{
+    top: 0;
+    position: absolute;
+    
+}
+.header{
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    margin: 10px;
+    padding-left: 90px;
+    padding-right: 40px;
+    
+}
+
+span{
+    color: black;
+    
+    border: solid 1px white;
+  
+}
+.navbar{
+    text-align: right;
+    bottom: 30px;
+    position: relative;
+}
+
+.txtl{
+    padding: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+}
+.txtogo{
+    padding: 7px;
+    font-size: x-large;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: small;
+
+}
+
+a:hover{
+    color: red;
+    border-bottom: red 1px solid;
+}
+
+.bdtxt{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.ourtxt{
+    margin-top: 40px;
+    
+}
+.wlctxt{
+    padding: 20px;
+}
+.conttxt{
+    padding: 20px;
+}
+
+.butn2{
+    position: absolute;
+    /* left: 500px; */
+    top: 350px;
+    left: 40%;
+    
+}
+
+.butn2 button{
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border: white 1px solid ;
+    border-radius: 2px;
+    font-weight:bold;
+}
+
+.butn2 button:hover{
+    background-color:#e74b3b;
+    border: solid 1px #e74b3b;
+}
+
+
+.downicon{
+    position: absolute;
+    /* top: 665px; */
+    bottom: 0px;
+    left: 48.40%;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.content-part2{
+    display: flex;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+.card4part{
+    width: 25%;
+    padding: 50px;
+    text-align: center;   
+}
+.card4part i{
+    border: 1px solid grey;
+    padding: 20px;
+}
+.card4part h3{
+    padding: 20px 0px;
+}
+
+.card4part i:hover{
+    border-color: #e74b3b;
+    animation: 0.3 all ease-in;
+    transform: rotate(45deg);
+    
+    
+
+}
