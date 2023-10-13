@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#uni-padding {
+    padding: 0px 100px;
+}
+
+/* main container */
+
+.main-container {
+    overflow: auto;
+    box-sizing: border-box;
+
+}
+
+.section-33 {
+    float: left;
+    display: flex;
+    text-align: center;
+    width: 33.33%;
+    padding: 30px 0px;
+
+}
+.mobile-view{
+    display: none
+}
+
+.main-container h4 {
+    padding-top: 40px;
+
+}
+
+.main-container ul {
+    list-style-type: none;
+    padding-top: 40px;
+
+}
+
+.section-33 li {
+    padding-right: 20px;
+}
+
+.section-33 p {
+    text-align: right !important;
+    padding: 10px 20px;
+    padding-left: 30px;
+}
+
+.get-srt-free {
+    background-color: #ECE5FF;
+
+    color: #794CFF;
+    font-weight: 500;
+}
+
+.discount-ofr {
+    text-align: center;
+    align-items: center;
+}
+
+.save-btn {
+    background-color: #81C43B;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.txt-motive {
+    text-align: center;
+    padding: 20px 180px;
+    font-size: 60px;
+    color: #35414B;
+}
+
+.para-desce {
+    text-align: center;
+    color: #35414B;
+
+}
+
+.cmnydetails {
+    align-items: center;
+    padding: 20px 350px;
+    margin: 0px;
+
+}
+
+.comp-email {
+    padding: 10px 30px;
+
+
+}
+
+.try-btn {
+    padding: 12px 30px;
+    color: white;
+    background-color: #794CFF;
+    border: none;
+    transform: translateX(-5px);
+
+}
+
+img {
+    width: auto;
+    transform: translateX(20px);
+}
+
+.logos {
+    padding: 50px 20px;
+    width: auto;
+}
+
+.sponsor-logos {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 50px;
+}
+.trst-teams{
+    text-align: center;
+}
+
+.timeline-div{
+    flex-direction: row;
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+    padding: 40px 0px;
+}
+.timeline-container{
+    
+    justify-content: center;
+    align-items: center;
+}
+.timeline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.timeline > h2{
+    font-size: 18px;
+}
+.timelinebox{
+    width: 600px;
+}
+.timeline:first-child{
+    border-left: 5px solid #794CFF;
+    background-color: #ECE5FF;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+
+@media (max-width: 550px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    #uni-padding {
+        padding: 0px 20px;
+    }
+    
+
+    
+    .main-container {
+        overflow: auto;
+        box-sizing: border-box;
+    
+    }
+    
+   .nav-bar{
+    display: none;
+   }
+    .mobile-view{
+        display: block
+    }
+    .mobile-view img{
+        position: relative;
+        top: 12px;
+        left: 50px;
+    }
+    .mobile-view:hover >.mobile-navigation {
+        display: block;
+        background-color: #35414B;
+        height: 300px;
+        width: 150px;
+        position: absolute;
+        top: 0;
+        color: white;
+        line-height: 2;
+        text-align: center;
+        
+    }
+    .login-li{
+        background-color: #ECE5FF;
+        color: #794CFF;
+    }
+    .get-free-li{
+        font-weight: bold;
+        color: #794CFF;
+    }
+    
+    .main-container h4 {
+        padding-top: 10px;
+    
+    }
+    .mobile-navigation{
+        display: none;
+    }
+    
+    .main-container ul {
+        list-style-type: none;
+        padding-top: 40px;
+    }
+    
+    .section-33 li {
+        padding-right: 20px;
+    }
+    
+    .section-33 p {
+        text-align: right !important;
+        padding: 10px 20px;
+        padding-left: 30px;
+    }
+    
+    .log-in{
+        display: none;
+    }
+    .get-srt-free{
+        display: none;
+    }
+    .discount-ofr {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .save-btn {
+        display: none;
+    }
+    
+    .txt-motive {
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 30px;
+        color: #35414B;
+    }
+    
+    .para-desce {
+        text-align: center;
+        color: #35414B;
+    
+    }
+    
+    .cmnydetails {
+        
+       padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    
+    }
+    
+    .comp-email {
+        width: 200px;
+        
+    
+    }
+    
+    .try-btn {
+        width: 250px;
+        color: white;
+        background-color: #794CFF;
+        border: none;
+        text-wrap:nowrap;
+        border-radius: 5px;
+    
+    }
+    
+   .bus-details img {
+        width:100% ;
+    }
+    
+    .logos {
+        padding:5px;
+        width: auto;
+    }
+    
+    .sponsor-logos {
+        display: flex;
+        align-items: center;
+        
+        margin-top: 50px;
+        
+    }
+    .sponsor-logos img{
+        width: 50px;
+    }
+    .slack{
+        display: none;
+    }
+    .trst-teams{
+        text-align: center;
+    }
+    
+    .timeline-div{
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+        box-sizing: border-box;
+        padding: 40px 0px;
+    }
+    .timeline-div img{
+        width: 100%;
+    }
+    .timeline-container{
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .timeline{
+        text-align: center;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+    .timeline > h2{
+        font-size: 18px;
+    }
+    .timelinebox{
+        width: 550px;
+    }
+    .timeline:first-child{
+        border-bottom: 5px solid #794CFF;
+        background-color: white;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border-left: none;
+    }
+    
+   
+}
